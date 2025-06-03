@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Resolve India</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="font-[Inter]">
+    <!-- Header/Navigation -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="/" class="text-2xl font-bold">
+                        <span class="text-blue-600">Resolve</span><span class="text-gray-800">India</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="products.html" class="nav-link text-blue-600">Products</a>
+                    <a href="services.html" class="nav-link text-gray-600 hover:text-blue-600">Services</a>
+                    <a href="#blog" class="nav-link text-gray-600 hover:text-blue-600">Blog</a>
+                    <a href="#resources" class="nav-link text-gray-600 hover:text-blue-600">Resources</a>
+                    <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600">Contact</a>
+                    <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">GET STARTED</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-gray-800 focus:outline-none p-2">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden w-full absolute top-16 left-0 bg-white shadow-lg z-50">
+                <div class="p-4 space-y-3">
+                    <a href="products.html" class="block py-2 px-4 text-blue-600 bg-gray-50 rounded-md">Products</a>
+                    <a href="services.html" class="block py-2 px-4 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Services</a>
+                    <a href="#blog" class="block py-2 px-4 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Blog</a>
+                    <a href="#resources" class="block py-2 px-4 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Resources</a>
+                    <a href="#contact" class="block py-2 px-4 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-md">Contact</a>
+                    <a href="#contact" class="block py-3 bg-blue-600 text-white px-6 rounded-md hover:bg-blue-700 text-center mt-4">GET STARTED</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Products Hero Section -->
+    <section class="pt-24 bg-white">
+        <div class="container mx-auto px-6 py-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-8">Our Products</h1>
+            <p class="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-16">Discover our comprehensive suite of business management solutions designed to streamline your operations and boost productivity.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Attendance Management -->
+                <div class="bg-white rounded-lg shadow-lg p-8 transition duration-300 hover:shadow-xl border border-gray-100">
+                    <img src="https://www.resolveindia.com/wp-content/uploads/2020/07/Attendance-e1596178319100.png" alt="Attendance Management" class="w-full mb-6">
+                    <img src="https://www.resolveindia.com/wp-content/uploads/2018/09/Work-Logo-v2-1.png" alt="Work Logo" class="h-12 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Attendance Management</h3>
+                    <p class="text-gray-600 mb-6">With Resolve Work, mark and analyze attendance from anywhere at any time. Access right from your fingertips with web & mobile app.</p>
+                    <ul class="space-y-2 mb-6 text-gray-600">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Real-time attendance tracking</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Mobile app support</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Detailed analytics</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+                </div>
+
+                <!-- Leave Management -->
+                <div class="bg-white rounded-lg shadow-lg p-8 transition duration-300 hover:shadow-xl border border-gray-100">
+                    <img src="https://www.resolveindia.com/wp-content/uploads/2020/10/Resolve-leave.png" alt="Leave Management" class="w-full mb-6">
+                    <img src="https://www.resolveindia.com/wp-content/uploads/2018/07/Leave-Logo-1.png" alt="Leave Logo" class="h-12 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Leave Management</h3>
+                    <p class="text-gray-600 mb-6">Apply for leave from anywhere and Managers get notified and can approve the same in real-time.</p>
+                    <ul class="space-y-2 mb-6 text-gray-600">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Easy leave application</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Real-time notifications</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Leave balance tracking</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+                </div>
+
+                <!-- Expense Management -->
+                <div class="bg-white rounded-lg shadow-lg p-8 transition duration-300 hover:shadow-xl border border-gray-100">
+                    <img src="https://www.resolveindia.com/wp-content/uploads/2020/07/Expense-e1596178379812.png" alt="Expense Management" class="w-full mb-6">
+                    <img src="https://www.resolveindia.com/wp-content/uploads/2020/07/Expense-Logo.png" alt="Expense Logo" class="h-12 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Expense Management</h3>
+                    <p class="text-gray-600 mb-6">Smart Expense management app for a smarter world. Scan, Submit and claim expenses instantly.</p>
+                    <ul class="space-y-2 mb-6 text-gray-600">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Receipt scanning</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Quick submissions</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Expense tracking</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+                </div>
+
+                <!-- Tax Management -->
+                <div class="bg-white rounded-lg shadow-lg p-8 transition duration-300 hover:shadow-xl border border-gray-100">
+                    <img src="https://www.resolveindia.com/wp-content/uploads/2020/07/ResolveTax-e1596178750161.png" alt="Tax Management" class="w-full mb-6">
+                    <img src="https://www.resolveindia.com/wp-content/uploads/2020/07/tax_logo.png" alt="Tax Logo" class="h-12 mb-4">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Tax Management</h3>
+                    <p class="text-gray-600 mb-6">A smart App that optimizes your taxes. Choose between New Tax Regime or Old Tax Regime.</p>
+                    <ul class="space-y-2 mb-6 text-gray-600">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Tax optimization</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Regime comparison</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Tax planning</li>
+                    </ul>
+                    <a href="#" class="text-blue-600 font-semibold hover:text-blue-800">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Logo and Social -->
+                <div>
+                    <div class="text-3xl font-bold mb-6">
+                        <span class="text-white">Resolve</span><span class="text-blue-400">India</span>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="hover:text-blue-400"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Products & Services -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Products & Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-400">Attendance Management</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Leave Management</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Expense Management</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Payroll Services</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Accounting Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Site Disclaimer -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Site Disclaimer</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-400">Terms & Conditions</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Resources</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Career</a></li>
+                        <li><a href="#" class="hover:text-blue-400">Help Desk</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Where to find Us</h4>
+                    <p class="mb-2">ResolveBiz Services and Apps</p>
+                    <p class="mb-2">sales@resolveindia.com</p>
+                    <p class="mb-2">+91 9844810424</p>
+                    <p>535, 12th Cross, 5th Main Road,<br>
+                    RMV Extension, HIG Dollars Colony,<br>
+                    Bangalore – 560094</p>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center">
+                <p>Copyright@2019, ResolveBiz Services and Apps Pvt Ltd.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
